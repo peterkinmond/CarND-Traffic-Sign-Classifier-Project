@@ -58,7 +58,9 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. 
 
-I preprocessed the image data by normalizing all the images. This helped the model by making all the data have equal variance. I considered converting all images to greyscale but was able to get a high matching percentage without doing that.
+I preprocessed the image data by normalizing all the images. This helped the model by making all the data have equal variance, which increases the chances that the images will look similar, which helps when comparing them with each other. 
+
+I considered converting all images to greyscale but was able to get a high matching percentage without doing that.
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
